@@ -36,8 +36,7 @@ app.use((req, res, next) => {
   next()
 })
 
-// TODO aqui van los routes
-app.use('/user', require('./routes/User.routes'))
+// @Routes
 
 
 //error handling, tiene que ir luego de los rew que funcionan
